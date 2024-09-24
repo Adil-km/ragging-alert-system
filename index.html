@@ -9,7 +9,14 @@
 </head>
 <body>
     <div class="container">
-        <form >
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- access key code -->
+             <!-- <input type="hidden" name="access_key" value="35b382a8-6199-4594-8be8-6637e87a6bd7"> -->
+
+             <!-- custom thankyou page -->
+             <!-- <input type="hidden" name="redirect" value="https://www.google.com"> -->
+
             <div class="items">
                 <label for="name">Name</label>
                 <input type="text" id="name" placeholder="Full name" name="name" maxlength="20" required>
@@ -28,7 +35,7 @@
                 <div class="textArea">
                     <textarea name="message" id="message"></textarea>
                 </div>
-                <input type="submit">
+                <button type="submit">Submit complaint</button>
             </div>
         </form>
 
