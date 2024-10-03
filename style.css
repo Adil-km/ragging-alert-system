@@ -1,15 +1,26 @@
+*{
+margin:0;
+padding: 0;
+  
+}
+
 body{
-    background-color: peachpuff;
+    background-color: green;
 }
 
 .container{
-    background-color: rgb(255, 173, 67);
+    background-color: lightpink;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
+    margin:0;
+    padding: 0;
 }
 
 form{
-    padding: 10px;
+   
+    min-height: 100vh;
+    border: 2px solid red;
     
 }
 
