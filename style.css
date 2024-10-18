@@ -1,31 +1,86 @@
+:root{
+    --buttonN: #87a2ff;
+    --buttonY:#5479ff;;
+    --backgroundClr:#ebf4f6;
+    --alert:#e85c0d;
+    --inactive:#b6bbc4;
+    --success:#9bcf53;
+}
+
+
 *{
-margin:0;
-padding: 0;
-  
-}
-
-body{
-    background-color: green;
-}
-
-.container{
-    background-color: lightpink;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
-form{
-   
+body{
+    background-color: rgb(0, 250, 171);
+}
+
+.container{
+    background-color: rgb(255, 218, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    border: 2px solid red;
+}
+
+form{
+    padding: 25px 15px 15px 15px;
+    background-color: var(--backgroundClr);
+    border: 1px solid var(--inactive);
+    border-radius: 8px;
+    width: 500px;
     
 }
+
+input::placeholder{
+    background-color: white
+}
+
+label{
+    font-weight: 900;
+}
+
+input{
+    border: 1px solid var(--inactive);
+}
+
+#name,#email{
+    padding: 5px;
+    outline: none;
+}
+
+#dept{
+    background-color: white;
+    border: 1px solid var(--inactive);
+    padding: 8px;
+    width: 100%;
+    margin-top: 15px;
+}       
+
 
 .items{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
+#message{
+    resize: none;
+    width: 100%;
+    min-height: 150px;
+    font-size: 1rem;
+    border: 1px solid var(--inactive);
+    outline: none;
+}
+
+button{
+    color: white;
+    border: none;
+    background-color: var(--buttonY);
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 10px;
+}
+
