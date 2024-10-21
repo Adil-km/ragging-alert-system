@@ -53,6 +53,7 @@ input{
 
 #dept{
     background-color: white;
+    outline: none;
     border: 1px solid var(--inactive);
     padding: 8px;
     width: 100%;
