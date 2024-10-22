@@ -11,8 +11,8 @@
     <div class="tick">
         <img src="greenTick.png" alt="success tick">
     </div>
-    <p class="main">Report submitted</p>
-    <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae inventore deleniti recusandae debitis expedita magnam explicabo consequatur repellat, impedit aperiam excepturi consectetur voluptas blanditiis ducimus fuga accusamus deserunt harum tenetur.</p>
+    <p class="main">Thank you!</p>
+    <p class="message">Your report has been submitted successfully.</p>
 
 </div>
 
@@ -29,10 +29,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .main{
         color: rgb(44, 44, 44);
-        font-size: 2rem;
+        font-size: 2.3rem;
         font-weight: 900;
     }
 
@@ -45,6 +46,19 @@
         padding: 10px;
         max-width: 50rem;
     }
+    @media (max-width: 475px){
+        img{
+        width: 120px;
+        }
+    }
+    .main{
+        font-size: 1.1rem;
+    }
+    .message{
+        font-size: 0.7rem;
+        
+    }
+
 </style>
 
 </html>
